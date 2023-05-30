@@ -1,0 +1,2115 @@
+body{
+    background:  linear-gradient(0deg, rgba(0,0,0,0.8),  rgba(0,0,0,0.8)), url(Pag.Imagenes/fondo\ inicio\ secion.png);
+    width: 99vw;
+    height: 120vw;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: cursive ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 60px;
+    flex-wrap: wrap;
+
+    
+}
+a{
+text-decoration: none;
+color: black;
+
+}
+
+header{
+    display: flex;
+justify-content: space-between;
+width: 100%;
+height: 63px;
+align-items: center;
+padding-left: 10px;
+padding-right: 7px;
+padding: 10px;
+background: green ;
+}
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+.logo-img{
+    height: 50px;
+    margin-right: 9px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+nav a:hover{
+    color:whitesmoke ;
+}
+
+.texto p{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.354);
+    padding: 2px;
+    margin: 0px 140px;
+    text-align:   center;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+@media  (max-width:700px){
+    header{ 
+        flex-direction: column;
+    }
+    
+}
+#boton_grados{
+    display: none;
+}
+#secciones_{
+    display: none;
+}
+#secciones__{
+    display: none;
+}
+#secciones___{
+    display: none;
+}
+#cua_A_list{
+    display: none;
+}
+#cua_B_list{
+    display: none;
+}
+#cua_C_list{
+    display: none;
+} 
+#cua_D_list{
+    display: none;
+}
+
+
+
+/**informatica**/
+
+
+.informatica_{
+    font-family:cursive ;
+      display: flex;
+      font-style: italic;
+      font-size: 15px;
+      text-decoration: none;
+      color: #000;
+      background-color:#D0D0D0;
+      padding: 35px;
+      margin: 5px 25px;
+      border: 0.5px solid gray;
+      border-radius: 10%;
+  }
+  .informatica_:hover{
+      background-color:#474747;
+      color: #fff;
+      cursor: pointer;
+  }
+
+
+
+/**cuartos**/
+
+
+
+.cua_{
+    display: flex;
+    font-style:italic ;
+    font-size: 10px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 20px;
+    margin-top: 13px;
+    margin-left: 13px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.cua_:hover{
+    background-color:#414754;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.cua_A{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;  
+    border-radius: 10%; 
+}
+.cua_A:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.cua_B{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius:10% ;
+}
+.cua_B:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+.cua_C{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.cua_C:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.cua_D{   
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.cua_D:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+/**quintos**/
+
+
+
+
+.quin_{
+    display: flex;
+    font-style:italic ;
+    font-size: 10px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 20px;
+    margin-top: 13px;
+    margin-left: 13px;
+    border: 0.5px solid gray ;
+   border-radius: 10%; 
+}
+.quin_:hover{
+    background-color:#414754;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.quin_A{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;   
+    border-radius: 10%;
+}
+.quin_A:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.quin_B{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.quin_B:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+.quin_C{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.quin_C:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.quin_D{   
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.quin_D:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+/**sextos**/
+
+
+.sex_{
+    display: flex;
+    font-style:italic ;
+    font-size: 10px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 20px;
+    margin-top: 13px;
+    margin-left: 13px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.sex_:hover{
+    background-color:#414754;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.sex_A{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;   
+}
+.sex_A:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.sex_B{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.sex_B:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+.sex_C{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.sex_C:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.sex_D{   
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.sex_D:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/**cuartos listado**/
+
+.cua_D_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+.cua_C_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+.cua_B_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+.cua_A_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+
+/**quintos listado**/
+
+
+#quin_a_list{
+    display: none;
+}
+
+
+.quin_A_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+#quin_b_list{
+    display: none;
+}
+.quin_B_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+
+#quin_c_list{
+    display: none;
+}
+.quin_C_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+#quin_d_list{
+    display: none;
+}
+.quin_D_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+
+
+/**sextos listado**/
+
+
+#sex_a_list{
+    display: none;
+}
+.sex_A_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+#sex_b_list{
+    display: none;
+}
+.sex_B_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+#sex_c_list{
+    display: none;
+}
+.sex_C_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+#sex_d_list{
+    display: none;
+}
+.sex_D_list:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+
+
+/***mercadeo**/
+
+
+
+.mercadeo_{
+    font-family:cursive ;
+      display: flex;
+      font-style: italic;
+      font-size: 15px;
+      text-decoration: none;
+      color: #000;
+      background-color:#D0D0D0;
+      padding: 35px;
+      margin: 70px 25px;
+
+      border: 0.5px solid gray;
+      border-radius: 10%;
+  }
+  .mercadeo_:hover{
+      background-color:#474747;
+      color: #fff;
+      cursor: pointer;
+  }
+
+/**cuartos**/
+
+
+
+.cua_merca{
+    display: flex;
+    font-style:italic ;
+    font-size: 10px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 20px;
+    margin-top: 13px;
+    margin-left: 13px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.cua_merca:hover{
+    background-color:#414754;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cua_a_merca{   
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.cua_a_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+.cua_b_merca{   
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.cua_b_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+.cua_c_merca{   
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.cua_c_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cua_d_merca{   
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.cua_d_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+/**quintos**/
+
+
+.quin_merca{
+    display: flex;
+    font-style:italic ;
+    font-size: 10px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 20px;
+    margin-top: 13px;
+    margin-left: 13px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.quin_merca:hover{
+    background-color:#414754;
+    color: #fff;
+    cursor: pointer;
+}
+.quin_a_merca{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.quin_a_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+.quin_b_merca{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.quin_b_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+.quin_c_merca{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.quin_c_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+.quin_d_merca{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.quin_d_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+/**sextos**/
+
+
+.sex_merca{
+    display: flex;
+    font-style:italic ;
+    font-size: 10px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 20px;
+    margin-top: 13px;
+    margin-left: 13px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.sex_merca:hover{
+    background-color:#414754;
+    color: #fff;
+    cursor: pointer;
+}
+.sex_a_merca{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.sex_a_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+.sex_b_merca{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.sex_b_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+.sex_c_merca{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.sex_c_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+.sex_d_merca{
+    display: flex;
+    font-style:italic ;
+    font-size: 8px;
+    text-decoration:none;
+    color: #000;
+    background-color: #D0D0D0;
+    padding: 13px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 0.5px solid gray ;
+    border-radius: 10%;
+}
+.sex_d_merca:hover{
+    background-color:#6f788c;
+    color: #fff;
+    cursor: pointer;
+}
+
+#merca_secciones{
+    display: none;
+}
+
+#merca_cua{
+    display: none;
+}
+
+#merca_quin{
+    display: none;
+}
+
+#merca_sex{
+    display: none;
+}
+
+
+/** cuarto mercadeo secciones**/
+
+#cua_a_mercaList{
+    display:none;
+}
+.cua_a_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+
+
+#cua_b_mercaList{
+    display:none;
+}
+.cua_b_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+#cua_c_mercaList{
+    display:none;
+}
+.cua_c_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+#cua_d_mercaList{
+    display:none;
+}
+.cua_d_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+
+/**quintos mercadeo list**/
+
+#quin_a_mercaList{
+    display:none;
+}
+.quin_a_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+#quin_b_mercaList{
+    display:none;
+}
+.quin_b_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+#quin_c_mercaList{
+    display:none;
+}
+.quin_c_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+#quin_d_mercaList{
+    display:none;
+}
+.quin_d_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+
+/**sexto listado */
+
+#sex_a_mercaList{
+    display:none;
+}
+.sex_a_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+#sex_b_mercaList{
+    display:none;
+}
+.sex_b_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+#sex_c_mercaList{
+    display:none;
+}
+.sex_c_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+#sex_d_mercaList{
+    display:none;
+}
+.sex_d_mercaList:hover{
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 6px;
+    margin-top: 5px;
+ background-color: #80a8ff;
+ border: 0.5px solid;
+}
+
+
+
+
+
+/*electricidad*/
+.electricidad_{
+    font-family:cursive ;
+      display: flex;
+      font-style: italic;
+      font-size: 15px;
+      text-decoration: none;
+      color: #000;
+      background-color:#D0D0D0;
+      padding: 35px;
+      margin: 70px 25px;
+
+      border: 0.5px solid gray;
+      border-radius: 10%;
+  }
+  .electricidad_:hover{
+      background-color:#474747;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  
+  /**cuartos**/
+  
+  
+  
+  .cua_elect{
+      display: flex;
+      font-style:italic ;
+      font-size: 10px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 20px;
+      margin-top: 13px;
+      margin-left: 13px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .cua_elect:hover{
+      background-color:#414754;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  .cua_a_elect{   
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .cua_a_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .cua_b_elect{   
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .cua_b_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .cua_c_elect{   
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .cua_c_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  .cua_d_elect{   
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .cua_d_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  
+  
+  /**quintos**/
+  
+  
+  .quin_elect{
+      display: flex;
+      font-style:italic ;
+      font-size: 10px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 20px;
+      margin-top: 13px;
+      margin-left: 13px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .quin_elect:hover{
+      background-color:#414754;
+      color: #fff;
+      cursor: pointer;
+  }
+  .quin_a_elect{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .quin_a_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .quin_b_elect{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .quin_b_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .quin_c_elect{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .quin_c_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .quin_d_elect{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .quin_d_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  
+  
+  
+  /**sextos**/
+  
+  
+  .sex_elect{
+      display: flex;
+      font-style:italic ;
+      font-size: 10px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 20px;
+      margin-top: 13px;
+      margin-left: 13px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .sex_elect:hover{
+      background-color:#414754;
+      color: #fff;
+      cursor: pointer;
+  }
+  .sex_a_elect{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .sex_a_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .sex_b_elect{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .sex_b_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .sex_c_elect{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .sex_c_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .sex_d_elect{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .sex_d_elect:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  #elect_secciones{
+      display: none;
+  }
+  
+  #elect_cua{
+      display: none;
+  }
+  
+  #elect_quin{
+      display: none;
+  }
+  
+  #elect_sex{
+      display: none;
+  }
+  
+  
+  /** cuarto electricidad secciones**/
+  
+  #cua_a_electList{
+      display:none;
+  }
+  .cua_a_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  
+  
+  #cua_b_electList{
+      display:none;
+  }
+  .cua_b_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  #cua_c_electList{
+      display:none;
+  }
+  .cua_c_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  #cua_d_electList{
+      display:none;
+  }
+  .cua_d_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  
+  /**quintos electricidad list**/
+  
+  #quin_a_electList{
+      display:none;
+  }
+  .quin_a_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #quin_b_electList{
+      display:none;
+  }
+  .quin_b_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #quin_c_electList{
+      display:none;
+  }
+  .quin_c_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #quin_d_electList{
+      display:none;
+  }
+  .quin_d_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  
+  /**sexto listado */
+  
+  #sex_a_electList{
+      display:none;
+  }
+  .sex_a_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #sex_b_electList{
+      display:none;
+  }
+  .sex_b_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #sex_c_electList{
+      display:none;
+  }
+  .sex_c_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #sex_d_electList{
+      display:none;
+  }
+  .sex_d_electList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+
+
+
+  
+/*enfermeria*/
+.enfermeria_{
+    font-family:cursive ;
+      display: flex;
+      font-style: italic;
+      font-size: 15px;
+      text-decoration: none;
+      color: #000;
+      background-color:#D0D0D0;
+      padding: 35px;
+      margin: 70px 25px;
+
+      border: 0.5px solid gray;
+      border-radius: 10%;
+  }
+  .enfermeria_:hover{
+      background-color:#474747;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  
+  /**cuartos**/
+  
+  
+  
+  .cua_enf{
+      display: flex;
+      font-style:italic ;
+      font-size: 10px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 20px;
+      margin-top: 13px;
+      margin-left: 13px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .cua_enf:hover{
+      background-color:#414754;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  .cua_a_enf{   
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .cua_a_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .cua_b_enf{   
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .cua_b_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .cua_c_enf{   
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .cua_c_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  .cua_d_enf{   
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .cua_d_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  
+  
+  /**quintos**/
+  
+  
+  .quin_enf{
+      display: flex;
+      font-style:italic ;
+      font-size: 10px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 20px;
+      margin-top: 13px;
+      margin-left: 13px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .quin_enf:hover{
+      background-color:#414754;
+      color: #fff;
+      cursor: pointer;
+  }
+  .quin_a_enf{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .quin_a_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .quin_b_enf{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .quin_b_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .quin_c_enf{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .quin_c_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .quin_d_enf{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .quin_d_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  
+  
+  
+  /**sextos**/
+  
+  
+  .sex_enf{
+      display: flex;
+      font-style:italic ;
+      font-size: 10px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 20px;
+      margin-top: 13px;
+      margin-left: 13px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .sex_enf:hover{
+      background-color:#414754;
+      color: #fff;
+      cursor: pointer;
+  }
+  .sex_a_enf{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .sex_a_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .sex_b_enf{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .sex_b_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .sex_c_enf{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .sex_c_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  .sex_d_enf{
+      display: flex;
+      font-style:italic ;
+      font-size: 8px;
+      text-decoration:none;
+      color: #000;
+      background-color: #D0D0D0;
+      padding: 13px;
+      margin-top: 13px;
+      margin-left: 15px;
+      border: 0.5px solid gray ;
+      border-radius: 10%;
+  }
+  .sex_d_enf:hover{
+      background-color:#6f788c;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  #enf_secciones{
+      display: none;
+  }
+  
+  #enf_cua{
+      display: none;
+  }
+  
+  #enf_quin{
+      display: none;
+  }
+  
+  #enf_sex{
+      display: none;
+  }
+  
+  
+  /** cuarto enfermeria secciones**/
+  
+  #cua_a_enfList{
+      display:none;
+  }
+  .cua_a_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  
+  
+  #cua_b_enfList{
+      display:none;
+  }
+  .cua_b_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  #cua_c_enfList{
+      display:none;
+  }
+  .cua_c_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  #cua_d_enfList{
+      display:none;
+  }
+  .cua_d_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  
+  /**quintos electricidad list**/
+  
+  #quin_a_enfList{
+      display:none;
+  }
+  .quin_a_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #quin_b_enfList{
+      display:none;
+  }
+  .quin_b_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #quin_c_enfList{
+      display:none;
+  }
+  .quin_c_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #quin_d_enfList{
+      display:none;
+  }
+  .quin_d_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  
+  /**sexto listado */
+  
+  #sex_a_enfList{
+      display:none;
+  }
+  .sex_a_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #sex_b_enfList{
+      display:none;
+  }
+  .sex_b_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #sex_c_enfList{
+      display:none;
+  }
+  .sex_c_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+  
+  #sex_d_enfList{
+      display:none;
+  }
+  .sex_d_enfList:hover{
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 15px;
+      margin: 6px;
+      margin-top: 5px;
+   background-color: #80a8ff;
+   border: 0.5px solid;
+  }
+
+
+
+
+
+  .tdbotones{
+    display: block;
+  }
+
+
+/**footer**/
+footer{
+    align-self: flex-end;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    align-items: center;
+    padding: 1em 0;
+    padding: 10px; 
+    background: rgb(19, 90, 27) ;
+    }

@@ -1,0 +1,27 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    margin: 0 auto;
+    width: 500px;
+    height: 250px;
+}
+
+table, tr, td, th{
+    border: 1px  ;
+   align-content: center;
+border-style:solid;
+border-spacing: 0;
+text-align: center;
+}
+
+th{
+    background-color:cadetblue;
+}
+
+#numero{
+    background: rgb(243, 92, 92);
+}
