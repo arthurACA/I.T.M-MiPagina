@@ -5,11 +5,11 @@ function login(){
 
           
     if(user == "arthur cruz"    &&   password == "admin" ){
-          window.location = "index.html";
+          window.location = "inicio.html";
     }
         
 else if(user == "henry brito" && password == "maestro"){
-      window.location = "index.html";
+      window.location = "inicio.html";
 }
 
 
