@@ -22,6 +22,47 @@ th{
     background-color:cadetblue;
 }
 
+
 #numero{
     background: rgb(243, 92, 92);
 }
+a{
+    text-decoration: none;
+    color: black;
+    
+    }
+    
+    header{
+        display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 63px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 7px;
+    padding: 10px;
+    background: green ;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+       
+    }
+    .logo-img{
+        height: 50px;
+        margin-right: 9px;
+    }
+    nav a{
+        font-weight: 600;
+        padding-right: 10px;
+    
+    }
+    nav a:hover{
+        color:whitesmoke ;
+    }
+    @media  (max-width:700px){
+        header{ 
+            flex-direction: column;
+        }
+        
+    }
