@@ -1,5 +1,5 @@
 body{
-    background:  linear-gradient(0deg, rgba(0,0,0,0.8),  rgba(0,0,0,0.8)), url(Pag.Imagenes/fondo\ inicio\ secion.png);
+    background:  linear-gradient(0deg, rgba(0,0,0,0.8),  rgba(0,0,0,0.8)), url(estilosCSS/Pag.Imagenes/fondo\ inicio\ secion.png);
     width: 99vw;
     height: 120vw;
     background-position: top center;
